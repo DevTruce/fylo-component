@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="src/css/output.css" />
+    <title>Flyo Data Storage</title>
+  </head>
+  <body
+    class="bg-veryDarkBlue bg-cover bg-center bg-no-repeat h-screen bg-bgMobile xl:bg-bgDesktop xl:bg-bottom xl:bg-contain"
+  >
+    <main>
+      <section
+        id="componentSection"
+        class="container px-6 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col space-y-5 xl:flex-row xl:space-y-0 xl:space-x-6 xl:items-end"
+      >
+        <!-- First Card -->
+        <div
+          class="bg-darkBlue rounded-tr-[5rem] rounded-lg p-10 space-y-10 xl:pr-52 xl:py-12"
+        >
+          <img src="src/images/logo.svg" alt="" />
+
+          <!-- button container -->
+          <div class="flex flex-row space-x-5">
+            <button
+              class="bg-veryDarkBlue p-3 rounded-lg hover:scale-105 active:scale-95"
+            >
+              <img src="src/images/icon-document.svg" alt="" /></button
+            ><button
+              class="bg-veryDarkBlue p-3 rounded-lg hover:scale-105 active:scale-95"
+            >
+              <img src="src/images/icon-folder.svg" alt="" /></button
+            ><button
+              class="bg-veryDarkBlue p-3 rounded-lg hover:scale-105 active:scale-95"
+            >
+              <img src="src/images/icon-upload.svg" alt="" />
+            </button>
+          </div>
+        </div>
+
+        <!-- Second Card -->
+        <div
+          class="bg-darkBlue rounded-lg px-6 pt-10 pb-16 relative flex-1 xl:px-16 xl:py-10"
+        >
+          <!-- slider text -->
+          <div class="text-paleBlue text-center px-2 mb-5 xl:text-left xl:px-0">
+            You've used <b class="text-white">815 GB</b> of your storage
+          </div>
+
+          <!-- slider container -->
+          <div
+            class="relative bg-veryDarkBlue rounded-full w-full p-1 flex items-center h-5"
+          >
+            <!-- slider -->
+            <div
+              class="rounded-full w-3/4 bg-gradient-to-r from-gradientOne to-gradientTwo flex justify-end items-center h-full py-[0.15rem] pr-[0.1rem]"
+            >
+              <!-- slider end point -->
+              <div
+                class="rounded-full w-[0.625rem] h-[0.6rem] bg-paleBlue"
+              ></div>
+            </div>
+          </div>
+
+          <!-- slider footer text -->
+          <div class="mt-3 flex flex-row justify-between text-white font-bold">
+            <div>0 GB</div>
+            <div>1000 GB</div>
+          </div>
+
+          <!-- Usage Left Section -->
+          <div
+            class="bg-white whitespace-nowrap inline-flex flex-row space-x-3 py-2 px-8 rounded-lg justify-center items-center absolute right-1/2 translate-x-1/2 -bottom-12 xl:translate-x-0 xl:bottom-auto xl:-top-14 xl:right-16 xl:rounded-br-none after:xl:w-0 after:xl:h-0 after:xl:border-l-transparent after:xl:border-l-[50px] after:xl:border-t-[30px] after:xl:absolute after:xl:-bottom-6 after:xl:right-0 after:xl:border-white"
+          >
+            <div class="text-veryDarkBlue font-bold text-[2rem] xl:text-[3rem]">
+              185
+            </div>
+            <div class="text-grayishBlue font-bold uppercase">GB LEFT</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
