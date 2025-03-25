@@ -959,6 +959,11 @@ video {
     padding-right: 4rem;
   }
 
+  .xl\:px-\[10rem\] {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
   .xl\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
