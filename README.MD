@@ -18,7 +18,7 @@
 <h3 align="center">Fylo Component</h3>
 
   <p align="center">
-    completed frontend mentor challenge
+    A polished Fylo UI component section.
     <br />
     <br />
     <a href="https://devtruce.github.io/fylo-component/" target="_blank">View Demo</a>
